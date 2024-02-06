@@ -1,0 +1,319 @@
+body {
+    background-image: linear-gradient(to top right, rgb(0, 255, 174), rgb(152, 215, 205),rgb(191, 236, 228), white);
+    margin: 0em;
+    background-attachment: fixed;
+    padding: 0em;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.5;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+header {
+    background-image: linear-gradient(to left, rgb(27, 104, 199), rgb(66, 170, 230), rgb(120, 239, 237), rgb(181, 230, 224), turquoise);
+    padding: 2em;
+    border: 1px solid;
+  
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+nav {
+    background-image: linear-gradient(to left, rgb(27, 104, 199), rgb(66, 170, 230), rgb(120, 239, 237), rgb(181, 230, 224), turquoise);
+    margin-bottom: 3em;
+    padding: 2em;
+    border: 1px solid;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(27, 104, 199), rgb(66, 170, 230), rgb(120, 239, 237), rgb(181, 230, 224), turquoise);
+    padding: .3em;
+    margin-top: 12em;
+    border: 1px solid;
+    box-shadow: 0px 0px 10px 2px black;
+    margin-bottom: 0em;
+}
+
+a {
+    display:block;
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: turquoise;
+    text-shadow: 0px 0px 5px black;
+}
+
+a:active {
+    color: rgb(9, 115, 103);
+    text-shadow: 0px 0px 15px black;
+}
+
+/*Classes*/
+
+.links {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    padding: .6em;
+    display:inline-flex;
+    margin-top: 1em;
+    float:right;
+}
+
+.links:hover {
+    color: turquoise;
+    text-shadow: 0px 0px 5px black;
+}
+
+.links:active {
+    color: rgb(9, 115, 103);
+    text-shadow: 0px 0px 15px black;
+}
+
+.current-link {
+    color: turquoise;
+    text-shadow: 0px 0px 5px black;
+}
+
+.navheader {
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    margin-left: 1em;
+    margin-right: 48em;
+}
+
+/*IDs*/
+
+#name {
+    margin-right: 6.3em;
+    font-size: 50px;
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#portrait {
+    margin-top: -16em;
+    margin-bottom: 2em;
+    width: 25%;
+    height: 25%;
+}
+
+#intro {
+    margin-right: 3em;
+    margin-left: 22.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+
+#faq {
+    background-image: linear-gradient(to left, rgb(27, 104, 199), rgb(66, 170, 230), rgb(120, 239, 237), rgb(181, 230, 224), turquoise);
+    padding: 2em;
+    border: 1px solid;
+    box-shadow: 0px 0px 10px 2px black;
+    margin-bottom: 22em;
+}
+
+#osaaminen {
+    background-image: linear-gradient(to left, rgb(27, 104, 199), rgb(66, 170, 230), rgb(120, 239, 237), rgb(181, 230, 224), turquoise);
+    padding: 2em;
+    border: 1px solid;
+    box-shadow: 0px 0px 10px 2px black;
+    margin-bottom: 19em;
+}
+
+#line01 {
+    background-image: linear-gradient(to right, orange, yellow, orange, yellow, orange, yellow);
+    width: 42em;
+    height: .5em;
+    margin-left: 28em;
+}
+
+
+
+/*Mobiilinäkymä (pystytaso)*/
+
+@media only screen and (max-width: 600px) {
+
+
+    .navheader {
+        font-size: 30px;
+        display:flex;
+        margin-top: 9em;
+        margin-left: 2em;
+    }
+
+    .links {
+        font-size: 22px;
+        display:block;
+        margin-left: 3em;
+        float:left;
+    }
+
+    #name {
+        float:left;
+        margin-bottom: 2em;
+    }
+
+    #intro {
+        float:left;
+        margin-top: -2em;
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-bottom: 20em;
+    }
+
+    #line01 {
+        width: 100%;
+        float:left;
+        margin-top: -22em;
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-bottom: 20em;
+    }
+
+    #portrait {
+        width: 100%;
+        height: 100%;
+
+    }
+
+  }
+
+    /*Mobiilinäkymä (vaakataso)*/
+
+@media only screen and (orientation: landscape) {
+
+    #name {
+        margin-bottom: -5em;
+        display: flex;
+    }
+
+    #intro {
+        display: flex;
+        margin-left: 20em;
+        margin-right: 0em;
+        margin-top: 6em;
+        margin-bottom: 1em;
+    }
+
+    #portrait {
+        width: 50%;
+        height: 50%;
+        margin-bottom: 0em;
+        display:flex;
+    }
+
+    #line01 {
+        width: 35%;
+        margin-left: 25em; 
+    }
+
+    .navheader {
+        font-size: 22px;
+        margin-top: 1em;
+        margin-right: 10em;
+    }
+
+}
+
+/*FullHD-korjauksia (oletus)*/
+
+@media only screen and (min-width: 1000px) {
+    #name {
+        margin-right: 7em;
+    }
+
+    .navheader {
+        font-size: 27px;
+    }
+
+    #intro {
+        margin-top: 6em;
+        margin-left: 20.5em;
+        margin-right: 5em;
+    }
+
+    #line01 {
+        margin-left: 26em;
+        width: 55%;
+    }
+
+    #portrait {
+        width: 25%;
+        height: 25%;
+        margin-top: -15em;
+        margin-bottom: 2em;
+    }
+}
+
+  /*2K- ja 4K-skaalaus*/
+
+@media only screen and (min-width: 1500px) {
+
+    #name {
+        font-size: 55px;
+        float: right;
+        display:flex;
+        margin-bottom: -5em;
+        margin-right: 15em;
+    }
+
+    #intro {
+        font-size: 24px;
+        margin-left: 22em;
+        margin-right: 4em;
+        margin-top: 8em;
+        display:flex;
+    }
+
+    #line01 {
+        margin-top: 2em;
+        margin-bottom: -15em;
+        margin-left: 33em;
+        width: 60%;
+    }
+
+    #portrait {
+        width: 20%;
+        height: 20%;
+        display: flex;
+        margin-top: -5em;
+    }
+
+    .navheader {
+        font-size: 32px;
+    }
+
+    .links {
+        font-size: 22px;
+    }
+
+
+
+}
