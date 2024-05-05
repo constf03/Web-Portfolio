@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,54 +18,67 @@
 <body>
 
     <nav>
-        <a class="links" href="faq.html">Tietoa minusta</a>
-        <a class="links" href="osaaminen.html">Osaaminen/näytteet</a>
-        <a class="links" href="index.html">Etusivu</a>
         <h2 class="navheader"><i>Osaaminen/näytteet</i></h2>
+        <div class="dropdown">
+            <button onclick="langMenu()" class="dropbtn" style="width: 65px">Kieli</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a>Suomi/Finnish</a>
+              <a href="eng/skills_eng.html">Englanti/English</a>
+            </div>
+          </div>
+        <div class="navlinks">
+            <a class="links" href="index.html">Etusivu</a>
+            <a class="links" href="osaaminen.html">Osaaminen/näytteet</a>
+            <a class="links" href="faq.html">Tietoa minusta</a>
+        </div>
     </nav>
 
     <section id="osaaminen">
         <h2>Projektit, koulutyöt ja saavutukset</h2>
 
-        <h3>Ensimmäinen Full Stack -sovellus</h3>
+        <h3>Meteorite Destroyers</h3>
         <img src="images/game_preview.png" style="width:35%; height:35%" alt="kuva">
         <img src="images/coolposterthing.png" style="width:26.5%; height:35%; display:inline;" alt="kuva">
-        <p>Tein pelimuotoisen full stack -sovelluksen JavaScriptillä hyödyntäen 
-            Phaser.io-kirjastoa HTML5-runkoon. Backend-puolella käytin Node.js:ää, Expressiä ja MongoDB:tä.
-            Toteutus on harjoitustyöni Full Stack -Ohjelmointi -opintojaksolle, jonka suoritin syksyllä 2023.
+        <p>
+            Ensimmäinen full stack -sovellukseni. Kehitin tämän pelin alunperin harjoitustyöksi full stack -ohjelmoinnin opintojaksolle
+            toisen vuoden syksynä. Olen kuitenkin vapaa-ajalla jatkanut pelin päivittämistä ja parantamista silloin tällöin.
+            Pelissä pelaaja on avaruusalus, ja tarkoituksena on tuhota putoavia meteoriitteja keräen pisteitä.
+            Pelaajalla on 5 elämää. Pelaajan ennätyspistemäärät tallennetaan tietokantaan.
+        </p>
+        <p>
+            Käytetyt teknologiat: JavaScript, Phaser, NodeJS, Express, RestAPI, MongoDB
         </p>
         <a href="https://student.labranet.jamk.fi/~AC9669/Full%20Stack%20-Ohjelmointi/Harjoitustyo/" target="blank">Full Stack -harjoitustyö (syksy 2023)</a><br>
-        <a href="https://github.com/constf03/Meteorite-Destroyers-Game" target="blank">Pelin julkinen GitHub-repositorio</a>
+        <a href="https://github.com/constf03/Meteorite-Destroyers-Game" target="blank">GitHub-repositorio</a>
         
         <br>
         
-        <h3>Future Factory IT -projekti 2024 (meneillään)</h3>
+        <h3>Future Factory IT 2024</h3>
         <p>
-            Olen tällä hetkellä suorittamassa Future Factory IT -projektikurssia (loppuu 30.4.2024).
-            Tiimimme toimeksianto on parantaa IoTituden kehittämää <a href="https://wimma-lab-2023.pages.labranet.jamk.fi/iotitude/core-traffic-visualizer/" target="blank" style="display:inline;">Tukko - Traffic Visualizer</a> -sovellusta, joka
-            on luotu Combitech Oy:n toimeksiantona WIMMA Lab 2023 kurssilla. Tarkoituksemme on lisätä siihen
-            uusia toimintoja ja parannuksia, kuten sisäänkirjautuminen, käyttöliittymäparannuksia ja tietoturvamenetelmiä.
-            Roolini projektissamme on Developer eli ohjelmistokehittäjä, mutta kyseisellä kurssilla olen oppinut paljon
-            myös yleisesti projektihallinnasta ja -käytänteistä.
+            Olin osa tiimiä "Future 16" Jamkin Future Factory IT 2024 -projektissa.
+            Ketterän projektin toimeksiantona oli parantaa IoTituden kehittämää <a href="https://wimma-lab-2023.pages.labranet.jamk.fi/iotitude/core-traffic-visualizer/" target="blank" style="display:inline;">Tukko - Traffic Visualizer</a> -sovellusta
+            implementoimalla siihen uusia ominaisuuksia ja parannuksia.
+            Roolini oli DEV (kehitys) ja opin projektin aikana käyttämään Reactia, TypeScriptiä ja Dockeria.
+            Sain implementoitua turvallisen autentikaatio-toiminnon kyseiseen sovellukseen ja esitin sen projektin demo-tapahtumassa.
+            Yleisesti opin projektin aikana paljon käytänteitä IT-projektityöskentelyssä.
+            Päivitin myös tiimimme etusivuja ja dokumentoin projektiamme.
         </p>
 
         <a href="https://it-ff-2024-t16.pages.labranet.jamk.fi/site/#avoin" target="blank">Tiimin etusivut</a><br>
-        <a href="https://it-ff-2024-t16.pages.labranet.jamk.fi/core/" target="blank">Tiimin OPF-sivu</a>
+        <a href="https://it-ff-2024-t16.pages.labranet.jamk.fi/core/" target="blank">Projektin dokumentaatio</a>
 
         
         <br>
         
-        <h3>AWS Educate -kunniamerkki</h3>
+        <h3>AWS Educate - Getting Started with Storage</h3>
         <img src="images/aws_badge.png" style="width:20%; height:20%; display:inline" alt="kuva">
-        <p>Olen saanut kunniamerkin AWS Educate -palvelusta, kun suoritin Getting Started with Storage
-            -verkkokurssin opintojaksolla IT-palvelualustat syksyllä 2023.
-            Kunniamerkin on myöntänyt Amazon Web Services Training and Certification.
+        <p>Myöntänyt Amazon Web Services Training and Certification.
         </p>
         <a href="https://www.credly.com/badges/01f3a6c4-cdca-4de2-b7b3-1b4a9ae2b781" target="blank">AWS Educate -kunniamerkki (syksy 2023)</a>
     </section>
 
     <footer>
-        <p><b><i>Yhteystiedot: Piippukatu 2, 40100 Jyväskylä, AC9669@student.jamk.fi</i></b></p>
+        <p>Yhteystiedot: Piippukatu 2, 40100 Jyväskylä (JAMK-osoite), AC9669@student.jamk.fi</p>
     </footer>
     
 </body>
