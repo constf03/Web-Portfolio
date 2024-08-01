@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Con. S. Skills</title>
+
+    <link rel="stylesheet" href="../styles/extrasmall.css" />
+    <link rel="stylesheet" href="../styles/small.css" />
+    <link rel="stylesheet" href="../styles/large.css" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&family=Russo+One&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Scripts-->
+    <script src="../scripts/mobileNav.js"></script>
+  </head>
+  <body>
+    <div class="banner">
+      <span class="header">FAQ</span>
+      <div class="navLinks">
+        <a href="eng_home.html">Home</a>
+        <a href="eng_skills.html">Skills</a>
+        <a href="eng_faq.html">FAQ</a>
+        <a href="../osaaminen.html" style="font-weight: 100">Suomeksi</a>
+      </div>
+      <a class="icon" onclick="handleMobileNav()">
+        <div class="menuIcon"></div>
+        <div class="menuIcon"></div>
+        <div class="menuIcon"></div>
+      </a>
+    </div>
+    <div class="dropDownLinks" id="dropDownLinks">
+      <a href="eng_home.html">Home</a>
+      <a href="eng_skills.html">Skills</a>
+      <a href="eng_faq.html">FAQ</a>
+      <a href="../osaaminen.html" style="font-weight: 100">Suomeksi</a>
+    </div>
+
+    <div id="osaaminen">
+      <h2>Projects, school work etc.</h2>
+      <div class="osaaminenItem">
+        <h3>"Meteorite Destroyers"</h3>
+        <div class="imgDiv">
+          <img src="../images/game_preview.png" alt="kuva" />
+          <img src="../images/coolposterthing.png" alt="kuva" />
+        </div>
+        <span>
+          My first full stack application. I developed this game originally as a project for a full
+          stack programming course in Fall of my second year. As a freetime hobby I have continued
+          to develop it by adding improvements and features every now and then. In the game you play
+          as a ship and the objective is to destroy as many meteorites as possible. The player has 5
+          lives and once they run out the game ends. If the player has reached a personal record
+          highscore it is saved to a database.
+        </span>
+        <span>Technologies used: JavaScript, Phaser, NodeJS, Express, RestAPI, MongoDB</span>
+        <a
+          href="https://student.labranet.jamk.fi/~AC9669/Full%20Stack%20-Ohjelmointi/Harjoitustyo/"
+          target="blank"
+          >Full Stack -project (Fall 2023)</a
+        >
+        <a href="https://github.com/constf03/Meteorite-Destroyers-Game" target="blank"
+          >GitHub repo</a
+        >
+      </div>
+
+      <div class="osaaminenItem">
+        <h3>Future Factory IT 2024</h3>
+        <div class="imgDiv">
+          <img src="../images/future16-full_alt1.png" alt="" />
+        </div>
+        <span>
+          I was part of a team named Future 16 on Jamk's Future Factory IT 2024 project course and I
+          was in developer role. Our team was assigned to improve traffic visualizer application
+          <a
+            href="https://wimma-lab-2023.pages.labranet.jamk.fi/iotitude/core-traffic-visualizer/"
+            target="blank"
+            style="display: inline"
+            >Tukko - Traffic Visualizer</a
+          >
+          by implementing new features to it. I managed to implement a secure account authentication
+          feature to the software we were working with. I learned React, TypeScript and Docker. I
+          learned a lot about agile project management and practices too. I also did a lot of
+          project documentation (features, user stories, use cases, test cases, DoD, release notes
+          etc.), dealt with tickets, attended scums and sprint reviews and kept our home page up to
+          date.
+        </span>
+
+        <a href="https://it-ff-2024-t16.pages.labranet.jamk.fi/site/#avoin" target="blank"
+          >Team homepage</a
+        >
+        <a href="https://it-ff-2024-t16.pages.labranet.jamk.fi/core/" target="blank"
+          >Project documentation (Spring 2024)</a
+        >
+      </div>
+
+      <div class="osaaminenItem">
+        <h3>AWS Educate - Getting Started with Storage</h3>
+        <img src="../images/aws_badge.png" alt="kuva" />
+        <span>Issued by Amazon Web Services Training and Certification.</span>
+        <a href="https://www.credly.com/badges/01f3a6c4-cdca-4de2-b7b3-1b4a9ae2b781" target="blank"
+          >AWS Educate -badge (Fall 2023)</a
+        >
+      </div>
+    </div>
+
+    <div class="footer">
+      <span>Yhteystiedot: Piippukatu 2, 40100 Jyväskylä (JAMK-osoite), AC9669@student.jamk.fi</span>
+    </div>
+  </body>
+</html>

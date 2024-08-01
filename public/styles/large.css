@@ -1,0 +1,61 @@
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+  .banner {
+    padding: 30px;
+  }
+  .banner a {
+    color: white;
+  }
+  .header {
+    font-size: 30px;
+  }
+  .navLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .menuIcon {
+    display: none;
+  }
+  .banner a.icon {
+    display: none;
+  }
+  .main {
+    flex-direction: row;
+  }
+  #intro {
+    place-self: start;
+  }
+  #intro h1 {
+    place-self: start;
+    font-size: 45px;
+  }
+  #intro span {
+    text-align: left;
+  }
+  .links {
+    place-self: start;
+  }
+
+  #osaaminen {
+    align-items: start;
+    text-align: left;
+  }
+
+  #osaaminen img {
+    max-width: 100%;
+  }
+
+  .imgDiv {
+    display: flex;
+    flex-direction: row;
+    max-width: 40%;
+    gap: 15px;
+  }
+
+  .osaaminenItem {
+    align-items: start;
+    text-align: left;
+  }
+}

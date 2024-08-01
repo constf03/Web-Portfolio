@@ -1,86 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stefano Confalone - Osaaminen/näytteet</title>
 
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles.css" />
 
     <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&family=Russo+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&family=Russo+One&family=Varela+Round&display=swap" rel="stylesheet"> 
-
-</head>
-<body>
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&family=Russo+One&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav>
-        <h2 class="navheader"><i>Showcase</i></h2>
-        <div class="dropdown">
-            <button onclick="langMenu()" class="dropbtn">Language</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="../osaaminen.html">Suomi/Finnish</a>
-              <a>Englanti/English</a>
-            </div>
-          </div>
-        <div class="navlinks">
-            <a class="links" href="home_eng.html">Home</a>
-            <a class="links" href="skills_eng.html">Showcase</a>
-            <a class="links" href="faq_eng.html">FAQ</a>
+      <h2 class="navheader"><i>Showcase</i></h2>
+      <div class="dropdown">
+        <button onclick="langMenu()" class="dropbtn">Language</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="../osaaminen.html">Suomi/Finnish</a>
+          <a>Englanti/English</a>
         </div>
+      </div>
+      <div class="navlinks">
+        <a class="links" href="home_eng.html">Home</a>
+        <a class="links" href="skills_eng.html">Showcase</a>
+        <a class="links" href="faq_eng.html">FAQ</a>
+      </div>
     </nav>
 
     <section id="osaaminen">
-        <h2>Projects, school work and achievements</h2>
+      <h2>Projects, school work etc.</h2>
 
-        <h3>Meteorite Destroyers</h3>
-        <img src="../images/game_preview.png" style="width:35%; height:35%" alt="kuva">
-        <img src="../images/coolposterthing.png" style="width:26.5%; height:35%; display:inline;" alt="kuva">
-        <p>
-            My first full stack application. I developed this game originally as a project for a full stack programming course in Fall of my second year.
-            As a freetime hobby I have continued to develop it by adding improvements and features every now and then.
-            In the game you play as a ship and the objective is to destroy as many meteorites as possible.
-            The player has 5 lives and once they run out the game ends. If the player has reached a personal record
-            highscore it is saved to a database. 
-        </p>
-        <p>
-            Used: JavaScript, Phaser, NodeJS, Express, RestAPI, MongoDB
-        </p>
-        <a href="https://student.labranet.jamk.fi/~AC9669/Full%20Stack%20-Ohjelmointi/Harjoitustyo/" target="blank">Full Stack -project (Fall 2023)</a><br>
-        <a href="https://github.com/constf03/Meteorite-Destroyers-Game" target="blank">GitHub-repository</a>
-        
-        <br>
-        
-        <h3>Future Factory IT 2024</h3>
-        <p>
-            I was part of a team named Future 16 on Jamk's Future Factory IT 2024 project course
-            and I was in developer role.
-            I managed to implement a secure account authentication feature to the software we were working with.
-            I learned React, TypeScript and Docker.
-            I learned a lot about agile project management and practices too.
-            I also did a lot of project documentation (features, user stories, use cases, test cases, DoD, release notes etc.),
-            dealt with tickets, attended scums and sprint reviews and kept our home page up to date. 
-        </p>
+      <h3>Meteorite Destroyers</h3>
+      <img src="../images/game_preview.png" style="width: 35%; height: 35%" alt="kuva" />
+      <img
+        src="../images/coolposterthing.png"
+        style="width: 26.5%; height: 35%; display: inline"
+        alt="kuva"
+      />
+      <p>
+        My first full stack application. I developed this game originally as a project for a full
+        stack programming course in Fall of my second year. As a freetime hobby I have continued to
+        develop it by adding improvements and features every now and then. In the game you play as a
+        ship and the objective is to destroy as many meteorites as possible. The player has 5 lives
+        and once they run out the game ends. If the player has reached a personal record highscore
+        it is saved to a database.
+      </p>
+      <p>Used: JavaScript, Phaser, NodeJS, Express, RestAPI, MongoDB</p>
+      <a
+        href="https://student.labranet.jamk.fi/~AC9669/Full%20Stack%20-Ohjelmointi/Harjoitustyo/"
+        target="blank"
+        >Full Stack -project (Fall 2023)</a
+      ><br />
+      <a href="https://github.com/constf03/Meteorite-Destroyers-Game" target="blank"
+        >GitHub-repository</a
+      >
 
-        <a href="https://it-ff-2024-t16.pages.labranet.jamk.fi/site/#avoin" target="blank">Team's homepage</a><br>
-        <a href="https://it-ff-2024-t16.pages.labranet.jamk.fi/core/" target="blank">Project documentation</a>
+      <br />
 
-        
-        <br>
-        
-        <h3>AWS Educate - Getting Started with Storage</h3>
-        <img src="../images/aws_badge.png" style="width:20%; height:20%; display:inline" alt="kuva">
-        <p>Issued by Amazon Web Services Training and Certification.
-        </p>
-        <a href="https://www.credly.com/badges/01f3a6c4-cdca-4de2-b7b3-1b4a9ae2b781" target="blank">AWS Educate -kunniamerkki (Fall 2023)</a>
+      <h3>Future Factory IT 2024</h3>
+      <p>
+        I was part of a team named Future 16 on Jamk's Future Factory IT 2024 project course and I
+        was in developer role. I managed to implement a secure account authentication feature to the
+        software we were working with. I learned React, TypeScript and Docker. I learned a lot about
+        agile project management and practices too. I also did a lot of project documentation
+        (features, user stories, use cases, test cases, DoD, release notes etc.), dealt with
+        tickets, attended scums and sprint reviews and kept our home page up to date.
+      </p>
+
+      <a href="https://it-ff-2024-t16.pages.labranet.jamk.fi/site/#avoin" target="blank"
+        >Team's homepage</a
+      ><br />
+      <a href="https://it-ff-2024-t16.pages.labranet.jamk.fi/core/" target="blank"
+        >Project documentation</a
+      >
+
+      <br />
+
+      <h3>AWS Educate - Getting Started with Storage</h3>
+      <img
+        src="../images/aws_badge.png"
+        style="width: 20%; height: 20%; display: inline"
+        alt="kuva"
+      />
+      <p>Issued by Amazon Web Services Training and Certification.</p>
+      <a href="https://www.credly.com/badges/01f3a6c4-cdca-4de2-b7b3-1b4a9ae2b781" target="blank"
+        >AWS Educate -kunniamerkki (Fall 2023)</a
+      >
     </section>
 
     <footer>
-        <p>Contact info: Piippukatu 2, 40100 Jyväskylä (JAMK address), AC9669@student.jamk.fi</p>
+      <p>Contact info: Piippukatu 2, 40100 Jyväskylä (JAMK address), AC9669@student.jamk.fi</p>
     </footer>
-    
-</body>
+  </body>
 </html>
