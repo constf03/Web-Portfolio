@@ -148,7 +148,7 @@
     flex-direction: column;
     gap: 25px;
     background-image: linear-gradient(
-      to left,
+      to right,
       rgb(27, 104, 199),
       rgb(66, 170, 230),
       rgb(120, 239, 237),
@@ -254,6 +254,18 @@
     align-items: center;
     text-align: center;
     gap: 10px;
+  }
+
+  .osaaminenItem ul,
+  li {
+    text-align: left;
+  }
+
+  .container-video {
+    display: flex;
+    border: 4px solid cyan;
+    border-radius: 10px;
+    overflow-y: hidden;
   }
 
   #faq {

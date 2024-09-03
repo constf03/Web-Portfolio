@@ -47,6 +47,10 @@
     max-width: 100%;
   }
 
+  .container-video {
+    max-width: 60%;
+  }
+
   .imgDiv {
     display: flex;
     flex-direction: row;

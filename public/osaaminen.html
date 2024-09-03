@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Con. S. -Osaaminen</title>
 
+    <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/extrasmall.css" />
     <link rel="stylesheet" href="./styles/small.css" />
     <link rel="stylesheet" href="./styles/large.css" />
@@ -48,7 +49,60 @@
     </div>
 
     <div id="osaaminen">
-      <h2>Projektit, koulutyöt jne.</h2>
+      <h1>Näytteitä</h1>
+
+      <div class="osaaminenItem">
+        <div>
+          <h3>Verkkosivut ravintolalle Johnny Hong Kong Hyvinkää</h3>
+          <h4>Työharjoittelu kesä 2024 - Tmi J.J.Wessman</h4>
+          <span>Aihe: full stack -kehitys, pilvipalvelut, jatkuva integraatio (CI)</span>
+        </div>
+
+        <div class="container-video">
+          <video style="max-width: 100%" controls autoplay>
+            <source src="/videos/krj_demo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div>
+          <span>
+            Työharjoittelun aikana työstin itsenäisesti verkkosivut ravintolalle Ravintola Johnny
+            Hong Kong Hyvinkää (<a href="https://ravintolajohnny.fi" target="blank">linkki</a>),
+            jonka työharjoitteluni ohjaaja omistaa osittain.
+          </span>
+          <span>Implementoin sivustoon muun muassa seuraavat ominaisuudet:</span>
+          <div>
+            <ul>
+              <li>käyttäjätodennus</li>
+              <li>käyttäjätietojen päivittäminen</li>
+              <li>tuotteet ruokamenuun (palvelimelta ladatut JSON-objektit)</li>
+              <li>admin-toiminto</li>
+              <li>yksinkertainen tilausjärjestelmä</li>
+              <li>lokalisaatio englanniksi sekä suomeksi</li>
+              <li>responsiivinen ulkoasu</li>
+            </ul>
+          </div>
+          <span>
+            Sivusto on hostattu AWS:n skaalautuvassa ECS-palvelussa, jossa palvelin- ja
+            käyttäjäpuolen Docker-kontit pyörivät https-protokollalla. Jatkuva integraatio toimii
+            AWS:n Codebuild-testien avulla.
+          </span>
+        </div>
+
+        <div class="container-col">
+          <span
+            >Päällimmäiset käytetyt teknologiat: Node.js, Express, React, TypeScript, RestAPI,
+            PostgreSQL, Docker</span
+          >
+          <span>Muut käytetyt sovelluskehykset: Sequelize ORM, TailwindCSS, Vite, Auth0</span>
+          <span
+            >Palvelualustat: GitHub, Amazon Web Services (Elastic Container Service, Codebuild,
+            Route 53), Aiven</span
+          >
+        </div>
+      </div>
+
       <div class="osaaminenItem">
         <h3>"Meteorite Destroyers"</h3>
         <div class="imgDiv">
@@ -56,10 +110,10 @@
           <img src="images/coolposterthing.png" alt="kuva" />
         </div>
         <span>
-          Ensimmäinen full stack -sovellukseni. Kehitin tämän pelin alunperin harjoitustyöksi full
-          stack -ohjelmoinnin opintojaksolle toisena vuonna syksyllä 2023. Olen kuitenkin
-          vapaa-ajalla jatkanut pelin päivittämistä ja parantamista silloin tällöin. Pelissä pelaaja
-          on avaruusalus, ja tarkoituksena on tuhota putoavia meteoriitteja keräten pisteitä.
+          Ensimmäinen full stack -sovellukseni. Tämä sovellus oli alunperin harjoitustyöni full
+          stack -ohjelmoinnin opintojaksolla toisen vuoden syksyllä. Olen kuitenkin vapaa-ajalla
+          jatkanut pelin päivittämistä ja parantamista silloin tällöin. Pelissä pelaaja on
+          avaruusalus, ja tarkoituksena on tuhota putoavia meteoriitteja keräten pisteitä.
           Pelaajalla on 5 elämää. Pelaajan ennätyspistemäärät tallennetaan tietokantaan.
         </span>
         <span>Käytetyt teknologiat: JavaScript, Phaser, NodeJS, Express, RestAPI, MongoDB</span>
@@ -89,7 +143,7 @@
           >
           -sovellusta implementoimalla siihen uusia ominaisuuksia ja parannuksia. Roolini oli DEV
           (kehitys) ja opin projektin aikana käyttämään Reactia, TypeScriptiä ja Dockeria. Sain
-          implementoitua turvallisen autentikaatio-toiminnon kyseiseen sovellukseen ja esitin sen
+          implementoitua turvallisen sisäänkirjautumistoiminnon kyseiseen sovellukseen ja esitin sen
           projektin demo-tapahtumassa. Yleisesti opin projektin aikana paljon käytänteitä
           IT-projektityöskentelystä. Päivitin myös tiimimme etusivuja ja dokumentoin projektiamme.
         </span>

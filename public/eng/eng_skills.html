@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Con. S. Skills</title>
 
+    <link rel="stylesheet" href="../styles/global.css" />
     <link rel="stylesheet" href="../styles/extrasmall.css" />
     <link rel="stylesheet" href="../styles/small.css" />
     <link rel="stylesheet" href="../styles/large.css" />
@@ -48,7 +49,58 @@
     </div>
 
     <div id="osaaminen">
-      <h2>Projects, school work etc.</h2>
+      <h1>Showcases</h1>
+
+      <div class="osaaminenItem">
+        <div>
+          <h3>Website for restaurant Ravintola Johnny Hong Kong Hyvinkää</h3>
+          <h4>Internship Summer 2024 - Tmi J.J.Wessman</h4>
+          <span>Topic: full stack development, cloud services, continuous integration (CI)</span>
+        </div>
+
+        <div class="container-video">
+          <video style="max-width: 100%" controls autoplay>
+            <source src="/videos/krj_demo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div>
+          <div class="container-col">
+            <span>
+              During my internship I created a website for restaurant Ravintola Johnny Hong Kong
+              Hyvinkää (<a href="https://ravintolajohnny.fi" target="blank">link</a>).
+            </span>
+            <span>I implemented the following features:</span>
+          </div>
+          <ul>
+            <li>user authentication</li>
+            <li>user data updating</li>
+            <li>products to food menu (JSON structure)</li>
+            <li>admin user feature</li>
+            <li>a simple food-ordering system</li>
+            <li>localization in Finnish and English</li>
+            <li>responsive UI</li>
+          </ul>
+          <span>
+            The site is hosted on AWS' Elastic Container Service where frontend and backend Docker
+            containers run on https protocol. Code is deployed through Codebuild on AWS.
+          </span>
+        </div>
+
+        <div class="container-col">
+          <span
+            >Main technologies used: Node.js, Express, React, TypeScript, RestAPI, PostgreSQL,
+            Docker</span
+          >
+          <span>Other (frameworks, libraries etc.): Sequelize ORM, TailwindCSS, Vite, Auth0</span>
+          <span
+            >Service platforms: GitHub, Amazon Web Services (Elastic Container Service, Codebuild,
+            Route 53), Aiven</span
+          >
+        </div>
+      </div>
+
       <div class="osaaminenItem">
         <h3>"Meteorite Destroyers"</h3>
         <div class="imgDiv">
@@ -115,7 +167,7 @@
     </div>
 
     <div class="footer">
-      <span>Yhteystiedot: Piippukatu 2, 40100 Jyväskylä (JAMK-osoite), AC9669@student.jamk.fi</span>
+      <span>Contact info: Piippukatu 2, 40100 Jyväskylä (JAMK-osoite), AC9669@student.jamk.fi</span>
     </div>
   </body>
 </html>
