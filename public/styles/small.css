@@ -72,10 +72,18 @@
     box-shadow: 0px 0px 10px 2px black;
     justify-content: space-between;
     align-items: center;
+    padding: 15px;
+  }
+
+  .banner a {
+    color: white;
+    font-size: 14px;
   }
 
   .navLinks {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
   }
 
   #dropDownLinks {
@@ -107,24 +115,11 @@
   }
 
   .menuIcon {
-    width: 35px;
-    height: 3px;
-    background-color: white;
-    margin: 6px 0;
+    display: none;
   }
 
   .banner a.icon {
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    background-image: linear-gradient(
-      to right,
-      rgb(27, 104, 199),
-      rgb(66, 170, 230),
-      rgb(120, 239, 237)
-    );
-    display: block;
+    display: none;
   }
 
   .banner a.icon:hover {
@@ -143,7 +138,7 @@
 
   .main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 25px;
     background-image: linear-gradient(
       to right,
@@ -196,6 +191,8 @@
   }
 
   .footer {
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(
       to left,
       rgb(27, 104, 199),
