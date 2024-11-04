@@ -68,8 +68,10 @@
         <div>
           <span>
             Työharjoittelun aikana työstin itsenäisesti verkkosivut ravintolalle Ravintola Johnny
-            Hong Kong Hyvinkää (<a href="https://ravintolajohnny.fi" target="blank">linkki</a>),
-            jonka työharjoitteluni ohjaaja omistaa osittain.
+            Hong Kong Hyvinkää (<span
+              ><a href="https://ravintolajohnny.fi" target="blank">linkki</a>, huom 4.11.2024:
+              saattaa olla väliaikaisesti pois käytöstä johtuen pilvipalvelualustan vaihdosta</span
+            >), jonka työharjoitteluni ohjaaja omistaa osittain.
           </span>
           <span>Implementoin sivustoon muun muassa seuraavat ominaisuudet:</span>
           <div>
@@ -84,9 +86,10 @@
             </ul>
           </div>
           <span>
-            Sivusto on hostattu AWS:n skaalautuvassa ECS-palvelussa, jossa palvelin- ja
-            käyttäjäpuolen Docker-kontit pyörivät https-protokollalla. Jatkuva integraatio toimii
-            AWS:n Codebuild-testien avulla.
+            Kun olin kehittämässä sivua, laitoin sen pyörimään AWS:n skaalautuvassa ECS-palvelussa,
+            jossa palvelin- ja käyttäjäpuolen Docker-kontit pyörivät https-protokollalla. Jatkuva
+            integraatio toimi AWS:n Codebuild-testien avulla. Myöhemmin kuitenkin sivu siirrettiin
+            taloudellisistä syistä toiseen pilvipalveluun.
           </span>
         </div>
 
@@ -100,9 +103,37 @@
             Material UI</span
           >
           <span
-            >Palvelualustat: GitHub, Amazon Web Services (Elastic Container Service, Codebuild,
-            Route 53), Aiven</span
+            >Palvelualustat: GitHub, Amazon Web Services (vanha): Elastic Container Service,
+            Codebuild, Route 53, Aiven</span
           >
+        </div>
+      </div>
+
+      <div class="osaaminenItem">
+        <h3>Mobiilisovelluksia</h3>
+        <span
+          >Olen tehnyt pienimuotoisia mobiilisovelluksia hyödyntäen muun muassa React Nativea,
+          Reactia sisältäen PWA (Progressive Web App), Firebasea ja Android Studiota.</span
+        >
+        <div class="container-col">
+          <div class="container-col">
+            <h4>Movies App</h4>
+            <a href="https://github.com/constf03/MoviesApp">GitHub-repo</a>
+            <img src="./images/movies_app.png" alt="movies app" />
+          </div>
+          <div class="container-col">
+            <h4>MyPlaces App</h4>
+            <a href="https://github.com/constf03/MyPlacesApp">GitHub-repo</a>
+            <img src="./images/myplaces_app.png" alt="my places app" />
+          </div>
+          <div>
+            <h4>Shopping List App</h4>
+            <img src="./images/shoppinglist_app.png" alt="shopping list app" />
+          </div>
+          <div>
+            <h4>Weather App</h4>
+            <img src="./images/weather_app.png" alt="weather app" />
+          </div>
         </div>
       </div>
 
