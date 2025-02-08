@@ -1,40 +1,61 @@
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
   .banner {
     padding: 30px;
   }
+
   .banner a {
     color: white;
     font-size: medium;
   }
+
   .header {
     font-size: 30px;
   }
+
   .navLinks {
     display: flex;
     flex-direction: row;
     gap: 20px;
   }
+
   .menuIcon {
     display: none;
   }
+
   .banner a.icon {
     display: none;
   }
+
   .main {
     flex-direction: row;
   }
+
+  .portrait {
+    width: 512px;
+  }
+
   #intro {
     place-self: start;
   }
+
   #intro h1 {
     place-self: start;
     font-size: 45px;
   }
+
   #intro span {
     text-align: left;
+    font-size: 22px;
   }
+
   .links {
     place-self: start;
   }
