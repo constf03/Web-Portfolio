@@ -1,5 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .container-col {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+img {
+  border-radius: 50px;
+  border: 6px solid rgba(255, 255, 255, 0.466);
+  background-image: url('../images/glass_overlay02.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 8px 1px black;
+}
+
+.container-video {
+  border-radius: 50px;
+  border: 6px solid rgba(255, 255, 255, 0.466);
+  background-image: url('../images/glass_overlay02.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 8px 1px black;
+}
+
+#osaaminen a {
+  color: white;
+}
+
+#osaaminen ul {
+  list-style: none;
+  margin-left: 25px;
+}
+
+.osaaminenItem {
+  width: 100%;
+  background-image: url('../images/glass_overlay02.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#krj-showcase {
+  gap: 10px;
+}
+
+#faq {
+  min-height: 400px;
+  justify-content: center;
+}
+
+#faq h2 {
+  margin-bottom: 15px;
+}
+
+.faqItem {
+  background-image: url('../images/glass_overlay02.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

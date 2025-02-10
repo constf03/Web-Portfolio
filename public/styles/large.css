@@ -4,7 +4,6 @@
   body {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
   }
 
   .banner {
@@ -40,6 +39,7 @@
 
   .portrait {
     width: 512px;
+    align-self: center;
   }
 
   #intro {
