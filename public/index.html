@@ -31,8 +31,9 @@
 
     <!--Scripts-->
     <script src="scripts/mobileNav.js"></script>
+    <script src="scripts/notifications.js"></script>
   </head>
-  <body>
+  <body onload="notifyAboutCache()">
     <div class="banner">
       <span class="header">Stefano Confalone</span>
       <div class="navLinks">
@@ -74,6 +75,11 @@
           <a href="https://github.com/constf03">GitHub</a>
         </div>
       </div>
+    </div>
+
+    <div id="snackbar">
+      Huomio: Jos olet käynyt aikaisemmin sivustollani, on suositeltavaa tyhjentää selaimesi
+      välimuisti, jotta näkyy varmasti viimeisin versio tästä sivusta...
     </div>
 
     <div class="footer">
