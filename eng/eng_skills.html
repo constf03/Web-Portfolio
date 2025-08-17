@@ -29,28 +29,29 @@
     <script src="../scripts/mobileNav.js"></script>
   </head>
   <body>
-    <div class="banner">
+    <header class="banner">
       <span class="header">Stefano Confalone</span>
-      <div class="navLinks">
+      <nav class="navLinks">
         <a href="eng_home.html">Home</a>
         <a href="eng_skills.html">Skills</a>
         <a href="eng_faq.html">About Me</a>
         <a href="../osaaminen.html" style="font-weight: 100">Suomeksi</a>
-      </div>
+      </nav>
       <a class="icon" onclick="handleMobileNav()">
         <div class="menuIcon"></div>
         <div class="menuIcon"></div>
         <div class="menuIcon"></div>
       </a>
-    </div>
-    <div class="dropDownLinks" id="dropDownLinks">
+    </header>
+
+    <nav class="dropDownLinks" id="dropDownLinks">
       <a href="eng_home.html">Home</a>
       <a href="eng_skills.html">Skills</a>
       <a href="eng_faq.html">FAQ</a>
       <a href="../osaaminen.html" style="font-weight: 100">Suomeksi</a>
-    </div>
+    </nav>
 
-    <div id="osaaminen">
+    <section id="section-skills">
       <h1>Showcase</h1>
 
       <ul>
@@ -61,7 +62,7 @@
         <li><a href="#ff-showcase">Future Factory IT project</a></li>
       </ul>
 
-      <div class="osaaminenItem" id="krj-showcase">
+      <article class="section-skills-item" id="krj-showcase">
         <div>
           <h3>Website for restaurant Ravintola Johnny Hong Kong Hyvinkää</h3>
           <h4>Internship Summer 2024 - Tmi J.J.Wessman</h4>
@@ -115,9 +116,9 @@
             Codebuild, Route 53)</span
           >
         </div>
-      </div>
+      </article>
 
-      <div class="osaaminenItem" id="mobileapps-showcase">
+      <article class="section-skills-item" id="mobileapps-showcase">
         <h3>Mobile Applications</h3>
         <span
           >Below are some of my small mobile apps I created using mainly React Native, React with
@@ -143,9 +144,9 @@
             <img src="../images/weather_app.png" alt="weather app" />
           </div>
         </div>
-      </div>
+      </article>
 
-      <div class="osaaminenItem" id="fictional-iptv-site">
+      <article class="section-skills-item" id="fictional-iptv-site">
         <h3>Fictional IPTV service website</h3>
         <a href="https://constf03.github.io/Fictional-IPTV-Service-Website/" target="_blank"
           >Link</a
@@ -156,9 +157,9 @@
           main focus of the site is its visual outlook and responsiveness.
         </p>
         <img src="../images/iptv01.png" alt="kuva" />
-      </div>
+      </article>
 
-      <div class="osaaminenItem" id="game-showcase">
+      <article class="section-skills-item" id="game-showcase">
         <h3>"Meteorite Destroyers"</h3>
         <div class="imgDiv">
           <img src="../images/game_preview.png" alt="kuva" />
@@ -181,9 +182,9 @@
         <a href="https://github.com/constf03/Meteorite-Destroyers-Game" target="blank"
           >GitHub repo</a
         >
-      </div>
+      </article>
 
-      <div class="osaaminenItem" id="ff-showcase">
+      <article class="section-skills-item" id="ff-showcase">
         <h3>Future Factory IT 2024</h3>
         <div class="imgDiv">
           <img src="../images/future16-full_alt1.png" alt="" />
@@ -216,14 +217,14 @@
         <a href="https://it-ff-2024-t16.pages.labranet.jamk.fi/core/" target="blank"
           >Project documentation (Spring 2024)</a
         >
-      </div>
-    </div>
+      </article>
+    </section>
 
-    <div class="footer">
+    <section class="footer">
       <div>
         <span>Personal website - Student portfolio - AC9669@student.jamk.fi</span>
       </div>
       <span>Stefano Confalone (c) 2024</span>
-    </div>
+    </section>
   </body>
 </html>

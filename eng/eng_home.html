@@ -33,34 +33,36 @@
     <script src="../scripts/notifications.js"></script>
   </head>
   <body onload="notifyAboutCache()">
-    <div class="banner">
+    <header class="banner">
       <span class="header">Stefano Confalone</span>
-      <div class="navLinks">
+      <nav class="navLinks">
         <a href="eng_home.html">Home</a>
         <a href="eng_skills.html">Skills</a>
         <a href="eng_faq.html">About Me</a>
         <a href="../index.html" style="font-weight: 100">Suomeksi</a>
-      </div>
+      </nav>
       <a class="icon" onclick="handleMobileNav()">
         <div class="menuIcon"></div>
         <div class="menuIcon"></div>
         <div class="menuIcon"></div>
       </a>
-    </div>
-    <div class="dropDownLinks" id="dropDownLinks">
+    </header>
+
+    <nav class="dropDownLinks" id="dropDownLinks">
       <a href="eng_home.html">Home</a>
       <a href="eng_skills.html">Skills</a>
       <a href="eng_faq.html">FAQ</a>
       <a href="../index.html" style="font-weight: 100">Suomeksi</a>
-    </div>
+    </nav>
 
-    <div class="main">
+    <section class="main">
       <img class="portrait" src="../images/portrait2.jpg" alt="" />
-      <div id="intro">
+      <article id="intro">
         <h1>Welcome!</h1>
         <span>
-          I'm a third-year software development student at JAMK University of Applied Sciences. I
-          began my studies in autumn 2022 and my goal is to graduate by the end of 2025.
+          I'm a fourth-year IT student at JAMK University of Applied Sciences specializing in
+          software development. I started my studies in autumn 2022 and my goal is to graduate by
+          the end of 2025.
           <br />
           <br />
           I have mostly experience in full stack web development with Type/Javascript, React,
@@ -73,19 +75,19 @@
           |
           <a href="https://github.com/constf03">GitHub</a>
         </div>
-      </div>
-    </div>
+      </article>
+    </section>
 
     <div id="snackbar">
       Note: If you have previously visited this site, it is recommended to clear your browser cache
       to ensure you see the latest version of this site...
     </div>
 
-    <div class="footer">
+    <section class="footer">
       <div>
         <span>Personal website - Student portfolio - AC9669@student.jamk.fi</span>
       </div>
       <span>Stefano Confalone (c) 2024</span>
-    </div>
+    </section>
   </body>
 </html>

@@ -28,31 +28,32 @@
     <script src="scripts/mobileNav.js"></script>
   </head>
   <body>
-    <div class="banner">
+    <header class="banner">
       <span class="header">Stefano Confalone</span>
-      <div class="navLinks">
+      <nav class="navLinks">
         <a href="index.html">Etusivu</a>
         <a href="osaaminen.html">Osaaminen</a>
         <a href="faq.html">Tietoa Minusta</a>
         <a href="./eng/eng_faq.html" style="font-weight: 100">In English</a>
-      </div>
+      </nav>
       <a class="icon" onclick="handleMobileNav()">
         <div class="menuIcon"></div>
         <div class="menuIcon"></div>
         <div class="menuIcon"></div>
       </a>
-    </div>
-    <div class="dropDownLinks" id="dropDownLinks">
+    </header>
+
+    <nav class="dropDownLinks" id="dropDownLinks">
       <a href="index.html">Etusivu</a>
       <a href="osaaminen.html">Osaaminen</a>
       <a href="faq.html">Tietoa Minusta</a>
       <a href="./eng/eng_faq.html" style="font-weight: 100">In English</a>
-    </div>
+    </nav>
 
-    <div id="faq">
+    <section id="section-faq">
       <div>
         <h2>Koulutus</h2>
-        <div class="faqItem">
+        <div class="section-faq-item">
           <span><b>Ylioppilastutkinto</b> 2019-2022 (Riihimäen lukio, Riihimäki)</span>
           <span
             ><b>Insinööri (AMK): Tieto- ja viestintätekniikka</b> 2022-2025 (JAMK, Jyväskylä)</span
@@ -61,7 +62,7 @@
       </div>
       <div>
         <h2>Työkokemus</h2>
-        <div class="faqItem">
+        <div class="section-faq-item">
           <span><b>Tmi J.J.Wessman - Työharjoittelu (Toukokuu-Elokuu 2024)</b></span>
           <span
             >Työharjoitteluni perustui full stack -kehitykseen PERN-kokonaisuudella, jossa työstin
@@ -71,13 +72,13 @@
           >
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="footer">
+    <section class="footer">
       <div>
         <span>Henkilökohtainen verkkosivu - Opiskelijaportfolio - AC9669@student.jamk.fi</span>
       </div>
       <span>Stefano Confalone (c) 2024</span>
-    </div>
+    </section>
   </body>
 </html>

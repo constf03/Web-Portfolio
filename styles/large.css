@@ -60,12 +60,12 @@
     place-self: start;
   }
 
-  #osaaminen {
+  #section-skills {
     align-items: start;
     text-align: left;
   }
 
-  #osaaminen img {
+  #section-skills img {
     max-width: 70%;
   }
 
@@ -80,7 +80,7 @@
     gap: 15px;
   }
 
-  .osaaminenItem {
+  .section-skills-item {
     align-items: start;
     text-align: left;
   }

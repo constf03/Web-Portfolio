@@ -235,7 +235,7 @@
     align-items: center;
   }
 
-  #osaaminen {
+  #section-skills {
     background-image: linear-gradient(
       to right,
       rgb(27, 104, 199, 0.8),
@@ -256,17 +256,17 @@
     gap: 20px;
   }
 
-  #osaaminen img {
+  #section-skills img {
     max-width: 100%;
   }
 
-  #osaaminen h2 {
+  #section-skills h2 {
     border-radius: 5px;
     box-shadow: 0px 0px 8px 1px black;
     padding: 10px;
   }
 
-  .osaaminenItem {
+  .section-skills-item {
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -277,7 +277,7 @@
     gap: 10px;
   }
 
-  .osaaminenItem ul,
+  .section-skills-item ul,
   li {
     text-align: left;
   }
@@ -287,7 +287,7 @@
     overflow-y: hidden;
   }
 
-  #faq {
+  #section-faq {
     background-image: linear-gradient(
       to right,
       rgb(27, 104, 199, 0.8),
@@ -306,7 +306,7 @@
     gap: 30px;
   }
 
-  .faqItem {
+  .section-faq-item {
     display: flex;
     flex-direction: column;
     gap: 5px;

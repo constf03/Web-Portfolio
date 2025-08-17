@@ -28,31 +28,32 @@
     <script src="../scripts/mobileNav.js"></script>
   </head>
   <body>
-    <div class="banner">
+    <header class="banner">
       <span class="header">Stefano Confalone</span>
-      <div class="navLinks">
+      <nav class="navLinks">
         <a href="eng_home.html">Home</a>
         <a href="eng_skills.html">Skills</a>
         <a href="eng_faq.html">About Me</a>
         <a href="../faq.html" style="font-weight: 100">Suomeksi</a>
-      </div>
+      </nav>
       <a class="icon" onclick="handleMobileNav()">
         <div class="menuIcon"></div>
         <div class="menuIcon"></div>
         <div class="menuIcon"></div>
       </a>
-    </div>
-    <div class="dropDownLinks" id="dropDownLinks">
+    </header>
+
+    <nav class="dropDownLinks" id="dropDownLinks">
       <a href="eng_home.html">Home</a>
       <a href="eng_skills.html">Skills</a>
       <a href="eng_faq.html">FAQ</a>
       <a href="../faq.html" style="font-weight: 100">Suomeksi</a>
-    </div>
+    </nav>
 
-    <div id="faq">
+    <section id="section-faq">
       <div>
         <h2>Education</h2>
-        <div class="faqItem">
+        <div class="section-faq-item">
           <span><b>Matriculation examination</b> 2019-2022 (Riihimäki high school, Riihimäki)</span>
           <span
             ><b>Bachelor of Engineering: Information and Communication Technology</b> 2022-2025
@@ -62,7 +63,7 @@
       </div>
       <div>
         <h2>Experience</h2>
-        <div class="faqItem">
+        <div class="section-faq-item">
           <span><b>Tmi J.J.Wessman - Internship (May-August 2024)</b></span>
           <span
             >My internship consisted of full stack development with PERN stack in which I built a
@@ -73,13 +74,13 @@
           >
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="footer">
+    <section class="footer">
       <div>
         <span>Personal website - Student portfolio - AC9669@student.jamk.fi</span>
       </div>
       <span>Stefano Confalone (c) 2024</span>
-    </div>
+    </section>
   </body>
 </html>

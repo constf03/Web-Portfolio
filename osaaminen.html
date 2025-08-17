@@ -29,28 +29,29 @@
     <script src="scripts/mobileNav.js"></script>
   </head>
   <body>
-    <div class="banner">
+    <header class="banner">
       <span class="header">Stefano Confalone</span>
-      <div class="navLinks">
+      <nav class="navLinks">
         <a href="index.html">Etusivu</a>
         <a href="osaaminen.html">Osaaminen</a>
         <a href="faq.html">Tietoa Minusta</a>
         <a href="./eng/eng_skills.html" style="font-weight: 100">In English</a>
-      </div>
+      </nav>
       <a class="icon" onclick="handleMobileNav()">
         <div class="menuIcon"></div>
         <div class="menuIcon"></div>
         <div class="menuIcon"></div>
       </a>
-    </div>
-    <div class="dropDownLinks" id="dropDownLinks">
+    </header>
+
+    <nav class="dropDownLinks" id="dropDownLinks">
       <a href="index.html">Etusivu</a>
       <a href="osaaminen.html">Osaaminen</a>
       <a href="faq.html">Tietoa Minusta</a>
       <a href="./eng/eng_skills.html" style="font-weight: 100">In English</a>
-    </div>
+    </nav>
 
-    <div id="osaaminen">
+    <section id="section-skills">
       <h1>Näytteitä</h1>
 
       <ul>
@@ -61,7 +62,7 @@
         <li><a href="#ff-showcase">Future Factory IT -projekti</a></li>
       </ul>
 
-      <div class="osaaminenItem" id="krj-showcase">
+      <article class="section-skills-item" id="krj-showcase">
         <div class="container-col">
           <h3>Verkkosivut ravintolalle Johnny Hong Kong Hyvinkää</h3>
           <h4>Työharjoittelu kesä 2024 - Tmi J.J.Wessman</h4>
@@ -119,9 +120,9 @@
             Codebuild, Route 53)</span
           >
         </div>
-      </div>
+      </article>
 
-      <div class="osaaminenItem" id="mobileapps-showcase">
+      <article class="section-skills-item" id="mobileapps-showcase">
         <h3>Mobiilisovelluksia</h3>
         <span
           >Olen tehnyt pienimuotoisia mobiilisovelluksia hyödyntäen muun muassa React Nativea,
@@ -147,9 +148,9 @@
             <img src="./images/weather_app.png" alt="weather app" />
           </div>
         </div>
-      </div>
+      </article>
 
-      <div class="osaaminenItem" id="fictional-iptv-site">
+      <article class="section-skills-item" id="fictional-iptv-site">
         <h3>Fiktiivinen IPTV-sivu</h3>
         <a href="https://constf03.github.io/Fictional-IPTV-Service-Website/" target="blank"
           >Linkki</a
@@ -160,9 +161,9 @@
           ominaisuudet ovat ulkoasu ja responsiivisuus.
         </p>
         <img src="images/iptv01.png" alt="kuva" />
-      </div>
+      </article>
 
-      <div class="osaaminenItem" id="game-showcase">
+      <article class="section-skills-item" id="game-showcase">
         <h3>"Meteorite Destroyers"</h3>
         <div class="imgDiv">
           <img src="images/game_preview.png" alt="kuva" />
@@ -184,9 +185,9 @@
         <a href="https://github.com/constf03/Meteorite-Destroyers-Game" target="blank"
           >GitHub-repo</a
         >
-      </div>
+      </article>
 
-      <div class="osaaminenItem" id="ff-showcase">
+      <article class="section-skills-item" id="ff-showcase">
         <h3>Future Factory IT 2024</h3>
         <div class="imgDiv">
           <img src="./images/future16-full_alt1.png" alt="" />
@@ -216,7 +217,7 @@
         <a href="https://it-ff-2024-t16.pages.labranet.jamk.fi/core/" target="blank"
           >Projektin dokumentaatio (kevät 2024)</a
         >
-      </div>
-    </div>
+      </article>
+    </section>
   </body>
 </html>
